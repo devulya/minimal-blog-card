@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-demo-link.com">
+    <a href="https://devulya.github.io/minimal-blog-card/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/your-username/minimal-blog-card">
+    <a href="https://github.com/devulya/minimal-blog-card">
       Solution
     </a>
     <span> | </span>
@@ -30,7 +30,6 @@
 - [Built with](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -66,5 +65,4 @@ This is a simple blog card layout created as part of the [devChallenges](https:/
 
 ## Contact
 
-- GitHub [@uliana-kucherenko](https://github.com/uliana-kucherenko)
-- LinkedIn [Uliana Kucherenko](https://www.linkedin.com/in/uliana-kucherenko)
+- GitHub [@devulya](https://github.com/devulya)
