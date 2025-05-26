@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+:root {
+  --Sora: "Sora", sans-serif;
+  --white: #ffffff;
+  --black: #20293a;
+  --black-light: #394150;
+  --grey: #e5eaf0;
+  --grey-light: #fafaf9;
+  --pink: #f2eafd;
+  --violet: #7c19ee;
+  --border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--white);
+  color: var(--black);
+  font-family: var(--Sora);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  max-width: 368px;
+  width: 100%;
+  padding: 16px 16px 20px 16px;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s ease;
+}
+
+.card__image {
+  position: relative;
+  min-height: 152px;
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: var(--pink);
+  border-radius: var(--border-radius);
+}
+
+.card__image img {
+  position: absolute;
+  border-radius: var(--border-radius);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__tag {
+  display: inline-block;
+  padding: 6px 16px;
+  margin-bottom: 16px;
+  background-color: var(--pink);
+  color: var(--violet);
+  border-radius: var(--border-radius);
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+.card__title {
+  display: block;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card__text {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--black-light);
+  font-weight: 300;
+}
+
+.card__name {
+  color: var(--black-light);
+  font-size: 12px;
+  font-weight: 300;
+}
